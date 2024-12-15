@@ -1,0 +1,62 @@
+:root
+{
+    --darkBlueShadow:#17a2b8;
+}
+section{
+    background-color: #24353f;
+    height: 100vh;
+}
+.container{
+    background-color: #24353f;
+}
+h1
+{
+    font-size: 40px;
+    color: var(--darkBlueShadow);
+}
+
+.form-control::placeholder{
+    color: #6c757d;
+}
+
+.form-control:focus 
+{
+    border-color:var(--darkBlueShadow);
+    box-shadow: none;
+}
+.submit-btn  .btn
+{
+    border:1px solid var(--darkBlueShadow);
+    color: var(--darkBlueShadow);
+}
+.submit-btn  .btn:hover
+{
+    background-color: var(--darkBlueShadow);
+    color: white;
+}
+
+a:hover
+{
+    text-decoration: underline !important;
+}
+.boxShadow
+{
+    box-shadow:10px 10px 30px 8px rgba(0,0,0,0.8) ;
+}
+.w-65{
+    width: 65%;
+}
+.home-content p 
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--darkBlueShadow);
+}
+.btn-outline-warning
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-outline-warning:hover 
+{
+    color: rgba(255, 255, 255, 0.75);
+}
